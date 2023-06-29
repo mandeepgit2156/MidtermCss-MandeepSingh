@@ -1,0 +1,97 @@
+html,
+body {
+    height: 100%;
+}
+
+/* Type selector */
+body {
+    margin: 0;
+}
+
+/* ID selector */
+#mainheading {
+    color: rgb(189, 16, 16);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'font-family: "Trirong", serif';
+}
+
+p,
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p,
+table {
+    font-size: 1.125rem;/
+}
+
+.wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.wrapper {
+    background-color: #ffebeb;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Class selector */
+.highlight {
+    background-color: rgb(238, 211, 229);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3em 0 3em 3em;
+    position: fixed;
+    bottom: 0;
+    width: 77%;
+    
+}
+
+aside {
+    padding: 2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border: 2px solid #f2f1f1;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+}
+
+thead th {
+    text-align: center;
+    text-decoration: underline;
+}
+
+tbody tr td:nth-of-type(2),
+tbody tr td:nth-of-type(3) {
+    text-align: center;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #ffdada;
+}
